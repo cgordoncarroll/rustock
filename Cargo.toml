@@ -1,0 +1,13 @@
+[package]
+
+name = "rustock"
+version = "0.0.1"
+authors = ["Gordon Carroll <cgordoncarroll@gmail.com>"]
+
+[dependencies.curl]
+git = "https://github.com/carllerche/curl-rust.git"
+version = "*"
+
+[dependencies.clap]
+git = "https://github.com/kbknapp/clap-rs.git"
+version = "*"
